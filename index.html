@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Basketball Scoreboard Project</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.cdnfonts.com/css/60s-scoreboard" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main">
+            <div class="home-main">
+                <div class="home-text">
+                    <h1>HOME</h1>
+                </div>
+                <div class="home-score">
+                    <h2 id="display-score-home">0</h2>
+                </div>
+                <div class="home-buttons">
+                    <button id="home1" onclick="addHome1()">+1</button>
+                    <button id="home2" onclick="addHome2()">+2</button>
+                    <button id="home3" onclick="addHome3()">+3</button>
+                    <button id="undo-home" onclick="undoHome()">UNDO</button>
+                </div>
+            </div>
+            <div class="guest-main">
+                <div class="guest-text">
+                    <h1>GUEST</h1>
+                </div>
+                <div class="guest-score">
+                    <h2 id="display-score-guest">0</h2>
+                </div>
+                <div class="guest-buttons">
+                    <button id="guest1" onclick="addGuest1()">+1</button>
+                    <button id="guest2" onclick="addGuest2()">+2</button>
+                    <button id="guest3" onclick="addGuest3()">+3</button>
+                    <button id="undo-guest" onclick="undoGuest()">UNDO</button>
+                </div>
+            </div>
+    </div>
+    <script src="app.js"></script>
+    </body>
+</html>
