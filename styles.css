@@ -6,6 +6,7 @@
 .main{
     display:flex;
     background-color: black;
+    min-height: 100vh;
 }
 
 .home-main{
